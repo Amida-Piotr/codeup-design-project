@@ -1,14 +1,26 @@
 body{
-    background-color: white;
+    background-color: lightgray;
 }
-.circle{
+.circle-with-text{
     width: 105px;
     height: 105px;
     line-height: 500px;
     border-radius: 50%;
-    font-size: 50px;
-    text-align: center;
+    border: 1px;
+
+    font-family: Anton Regular;
+
+    color: white;
+    display: flex;
+    /* place items in column */
+    flex-direction: column;
+    /* center flex items horizontally */
+    align-items: center;
+    /* center all content vertically */
+    justify-content: center;
+
 }
+
 .circle1{
 
     background-color:#E6563B
@@ -30,8 +42,15 @@ body{
     height: 18px;
     line-height: 500px;
     border-radius: 50%;
-    font-size: 50px;
+
     text-align: center;
+    display: flex;
+    /* place items in column */
+    flex-direction: column;
+    /* center flex items horizontally */
+    align-items: center;
+    /* center all content vertically */
+    justify-content: center;
 }
 .smcircle1{
     background-color:#E6563B
