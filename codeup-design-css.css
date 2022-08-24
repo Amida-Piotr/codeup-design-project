@@ -50,10 +50,11 @@ body{
     align-items: center;
     /* center all content vertically */
     justify-content: center;
+
 }
 .smcircle1{
     background-color:#E6563B
-} 0m
+}
 .smcircle2{
 
     background-color: #EB9D3A;
@@ -71,12 +72,11 @@ body{
     width: 105px;
 }
 
+.card-body{
+    background-color: lightgray;
+}
 
-/*.row{*/
-/*    width: 800px;*/
-/*}*/
-
-
+.d-none
 
 /*.d-lg-block{*/
 /*    width: 440px;*/
