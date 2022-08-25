@@ -1,6 +1,7 @@
-body{
+body {
     background-color: lightgray;
 }
+
 .circle-with-text {
     width: 105px;
     height: 105px;
@@ -13,77 +14,53 @@ body{
 }
 
 
-
-.smcircle{
+.smcircle {
     width: 18px;
     height: 18px;
-    line-height: 500px;
-    border-radius: 50%;
-
+    color: white;
     text-align: center;
-    display: flex;
-    /* place items in column */
-    flex-direction: column;
-    /* center flex items horizontally */
-    align-items: center;
-    /* center all content vertically */
-    justify-content: center;
-
-}
-.smcircle1{
-    background-color:#E6563B
-}
-.smcircle2{
-
-    background-color: #EB9D3A;
-}
-.smcircle3{
-
-    background-color: #7CB06C;
-}
-.smcircle4{
-    background-color: #00ABA9;
+    border: 1px;
+    border-radius: 50%;
+    font-family: Anton Regular;
 }
 
-.navbar-brand{
+
+.navbar-brand {
     height: 105px;
     width: 105px;
 }
 
-.card-body{
+.card-body {
     background-color: lightgray;
 }
 
-.d-none
-
-/*.d-lg-block{*/
-/*    width: 440px;*/
 /*}*/
-/*`md` applies to small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
+
+/*.d-none*/
+
+/*!*.d-lg-block{*!*/
+/*!*    width: 440px;*!*/
+/*!*}*!*/
+/*!*`md` applies to small devices (landscape phones, less than 768px)*!*/
+/*@media (max-width: 767.98px) {*/
 
 
+/*}*/
 
-}
-
-/*// `lg` applies to medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) {
-
+/*// `lg` applies to medium devices (tablets, less than 992px)*!*!*/
+/*@media (max-width: 991.98px) {*/
 
 
-}
+/*}*/
 
-/*// `xl` applies to large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) {
-
-
-
-}
-
-/*// `xxl` applies to x-large devices (large desktops, less than 1400px)*/
-@media (max-width: 1399.98px) {
+/*// `xl` applies to large devices (desktops, less than 1200px)*!*!*/
+/*@media (max-width: 1199.98px) {*/
 
 
+/*}*/
+
+/*// `xxl` applies to x-large devices (large desktops, less than 1400px)*!*!*/
+/*@media (max-width: 1399.98px) {*/
 
 
-}
+/*}*/
